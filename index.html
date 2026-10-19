@@ -1,0 +1,372 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your destination for Punjabi Circle Style Kabaddi, tournaments, players, match videos and results.">
+    <title>Kabaddi Punjab Live | Official Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Top announcement bar -->
+    <div class="top-bar">
+        <div class="container">
+            <span>🏆 THE HOME OF PUNJABI KABADDI</span>
+            <span>Live Matches • Tournaments • Players</span>
+        </div>
+    </div>
+
+    <!-- Website header -->
+    <header class="site-header">
+        <div class="container header-inner">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🏆</span>
+                <span class="logo-text">
+                    <strong>KABADDI</strong>
+                    <span>PUNJAB LIVE</span>
+                </span>
+            </a>
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation"
+                    aria-expanded="false">
+                ☰
+            </button>
+
+            <nav class="main-nav" id="mainNav">
+                <a href="#home">Home</a>
+                <a href="#upcoming">Upcoming</a>
+                <a href="#past">Past Tournaments</a>
+                <a href="#videos">Videos</a>
+                <a href="#players">Players</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#about">About Us</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <main id="home">
+
+        <!-- Hero banner -->
+        <section class="hero">
+            <div class="container hero-content">
+                <span class="hero-label">THE SPIRIT OF PUNJAB</span>
+                <h1>WELCOME TO<br>KABADDI PUNJAB LIVE</h1>
+                <p>
+                    Your destination for Circle Style Kabaddi,
+                    upcoming tournaments, legendary players
+                    and unforgettable matches.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#upcoming" class="btn btn-primary">
+                        Upcoming Tournaments
+                    </a>
+                    <a href="#videos" class="btn btn-outline">
+                        Watch Videos
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Upcoming tournaments -->
+        <section class="section" id="upcoming">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">DON'T MISS THE ACTION</span>
+                        <h2>Upcoming Tournaments</h2>
+                    </div>
+                    <a href="#upcoming" class="view-all">View All →</a>
+                </div>
+
+                <div class="tournament-grid" id="upcomingList">
+
+                    <article class="tournament-card">
+                        <div class="card-top">
+                            <span class="status upcoming-status">UPCOMING</span>
+                            <span class="trophy">🏆</span>
+                        </div>
+                        <h3>Punjab Kabaddi Cup</h3>
+                        <p class="location">📍 Jalandhar, Punjab</p>
+                        <div class="event-info">
+                            <span>📅 Add event date</span>
+                            <span>🕒 11:30 AM</span>
+                        </div>
+                        <button class="reminder-btn"
+                                data-event="Punjab Kabaddi Cup">
+                            Set Reminder
+                        </button>
+                    </article>
+
+                    <article class="tournament-card">
+                        <div class="card-top">
+                            <span class="status upcoming-status">UPCOMING</span>
+                            <span class="trophy">🏆</span>
+                        </div>
+                        <h3>Circle Style Kabaddi Cup</h3>
+                        <p class="location">📍 Ludhiana, Punjab</p>
+                        <div class="event-info">
+                            <span>📅 Add event date</span>
+                            <span>🕒 11:30 AM</span>
+                        </div>
+                        <button class="reminder-btn"
+                                data-event="Circle Style Kabaddi Cup">
+                            Set Reminder
+                        </button>
+                    </article>
+
+                    <article class="tournament-card">
+                        <div class="card-top">
+                            <span class="status upcoming-status">UPCOMING</span>
+                            <span class="trophy">🏆</span>
+                        </div>
+                        <h3>Village Kabaddi Championship</h3>
+                        <p class="location">📍 Kapurthala, Punjab</p>
+                        <div class="event-info">
+                            <span>📅 Add event date</span>
+                            <span>🕒 11:30 AM</span>
+                        </div>
+                        <button class="reminder-btn"
+                                data-event="Village Kabaddi Championship">
+                            Set Reminder
+                        </button>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Past tournaments -->
+        <section class="section section-alt" id="past">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">RELIVE THE ACTION</span>
+                        <h2>Past Tournaments</h2>
+                    </div>
+                    <a href="#past" class="view-all">View All →</a>
+                </div>
+
+                <div class="tournament-grid">
+
+                    <article class="tournament-card">
+                        <div class="card-top">
+                            <span class="status completed-status">COMPLETED</span>
+                            <span class="trophy">🥇</span>
+                        </div>
+                        <h3>Punjab Kabaddi Championship</h3>
+                        <p class="location">📍 Punjab, India</p>
+                        <div class="event-info">
+                            <span>📅 Add event date</span>
+                        </div>
+                        <a href="#videos" class="details-btn">View Highlights →</a>
+                    </article>
+
+                    <article class="tournament-card">
+                        <div class="card-top">
+                            <span class="status completed-status">COMPLETED</span>
+                            <span class="trophy">🥇</span>
+                        </div>
+                        <h3>Village Kabaddi Cup</h3>
+                        <p class="location">📍 Punjab, India</p>
+                        <div class="event-info">
+                            <span>📅 Add event date</span>
+                        </div>
+                        <a href="#videos" class="details-btn">View Highlights →</a>
+                    </article>
+
+                    <article class="tournament-card">
+                        <div class="card-top">
+                            <span class="status completed-status">COMPLETED</span>
+                            <span class="trophy">🥇</span>
+                        </div>
+                        <h3>Circle Kabaddi Show Match</h3>
+                        <p class="location">📍 Punjab, India</p>
+                        <div class="event-info">
+                            <span>📅 Add event date</span>
+                        </div>
+                        <a href="#videos" class="details-btn">View Highlights →</a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Live match section -->
+        <section class="section" id="live">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">WATCH THE ACTION</span>
+                        <h2>Live Kabaddi</h2>
+                    </div>
+                </div>
+
+                <div class="live-panel">
+                    <div class="live-icon">▶</div>
+                    <h3>Watch Kabaddi Matches</h3>
+                    <p>
+                        Live streams will appear here when you add
+                        an authorized streaming video.
+                    </p>
+                    <a href="#videos" class="btn btn-primary">
+                        Explore Videos
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video gallery -->
+        <section class="section section-alt" id="videos">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">MATCHES & ENTERTAINMENT</span>
+                        <h2>Kabaddi Video Gallery</h2>
+                    </div>
+                </div>
+
+                <div class="media-grid">
+                    <a href="#videos" class="media-card">
+                        <div class="media-placeholder">▶</div>
+                        <div class="media-info">
+                            <span class="media-category">MATCH VIDEOS</span>
+                            <h3>Tournament Highlights</h3>
+                            <p>Add your match video links</p>
+                        </div>
+                    </a>
+
+                    <a href="#videos" class="media-card">
+                        <div class="media-placeholder">▶</div>
+                        <div class="media-info">
+                            <span class="media-category">INTERVIEWS</span>
+                            <h3>Player Interviews</h3>
+                            <p>Meet your favourite players</p>
+                        </div>
+                    </a>
+
+                    <a href="#videos" class="media-card">
+                        <div class="media-placeholder">▶</div>
+                        <div class="media-info">
+                            <span class="media-category">BEST MATCHES</span>
+                            <h3>Classic Kabaddi Matches</h3>
+                            <p>Relive the best moments</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Players -->
+        <section class="section" id="players">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">THE STARS OF THE GAME</span>
+                        <h2>Kabaddi Players</h2>
+                    </div>
+                </div>
+
+                <div class="player-grid">
+                    <article class="player-card">
+                        <div class="player-avatar">🏃</div>
+                        <h3>Star Raiders</h3>
+                        <p>Speed, skill and spectacular raids.</p>
+                    </article>
+
+                    <article class="player-card">
+                        <div class="player-avatar">💪</div>
+                        <h3>Top Stoppers</h3>
+                        <p>Strength, strategy and powerful tackles.</p>
+                    </article>
+
+                    <article class="player-card">
+                        <div class="player-avatar">⭐</div>
+                        <h3>Rising Stars</h3>
+                        <p>Discover the next generation of players.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Photo gallery and posters -->
+        <section class="section section-alt" id="gallery">
+            <div class="container">
+                <div class="section-heading">
+                    <div>
+                        <span class="eyebrow">MOMENTS TO REMEMBER</span>
+                        <h2>Photo Gallery & Posters</h2>
+                    </div>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-tile">
+                        <span>📸</span>
+                        <h3>Tournament Photos</h3>
+                    </div>
+                    <div class="gallery-tile">
+                        <span>🖼️</span>
+                        <h3>Kabaddi Posters</h3>
+                    </div>
+                    <div class="gallery-tile">
+                        <span>🏆</span>
+                        <h3>Championship Moments</h3>
+                    </div>
+                    <div class="gallery-tile">
+                        <span>📱</span>
+                        <h3>Wallpapers</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="container about-content">
+                <span class="eyebrow">OUR PASSION, OUR GAME</span>
+                <h2>About Kabaddi Punjab Live</h2>
+                <p>
+                    We celebrate the rich tradition of Punjabi Circle
+                    Style Kabaddi by bringing fans closer to tournaments,
+                    talented players, memorable matches and the culture
+                    of the game.
+                </p>
+                <p>
+                    Our mission is to connect Kabaddi fans and promote
+                    the sport through tournament information, videos,
+                    interviews and photography.
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a href="#home" class="footer-logo">KABADDI PUNJAB LIVE</a>
+            <p>Celebrating the spirit of Punjabi Kabaddi.</p>
+
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <a href="#upcoming">Tournaments</a>
+                <a href="#videos">Videos</a>
+            </div>
+
+            <p class="copyright">
+                © <span id="currentYear">2026</span>
+                Kabaddi Punjab Live. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+                  </html>
+                  
